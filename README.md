@@ -1,4 +1,4 @@
-# PS3Xploit v3 HAN Debug Settings Installer / CEX/DEX Enabler
+# PS3Xploit v3 Debug Settings Installer + Debug/XMB Swappers
 
 Official Thread: http://www.psx-place.com/threads/ps3xploit-v3-debug-settings-installer-debug-xmb-swappers.17415/
 
