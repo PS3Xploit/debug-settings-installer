@@ -1850,6 +1850,7 @@ function loadcex_482()
 	gadget_mod15_addr=gadget_mod15_addr_482;
 	gadget_mod16_addr=gadget_mod16_addr_482;
 }
+/*
 function dex()
 {
 	if(fwVersion=="4.81")
@@ -1864,6 +1865,26 @@ function dex()
 		if(document.getElementById('dex').checked===true){loaddex_482();}//alert("calling loaddex_482");
 		else {loadcex_482();}
 		disable_trigger();
+	}
+}
+*/
+function dex()
+{
+	switch (fwVersion) {
+		case "4.81":
+			if(document.getElementById('dex').checked===true){loaddex_481();}//alert("calling loaddex_481");
+			else {loadcex_481();}
+			disable_trigger();
+			break;
+			
+		case "4.82":
+			if(document.getElementById('dex').checked===true){loaddex_482();}//alert("calling loaddex_482");
+			else {loadcex_482();}
+			disable_trigger();
+			break;
+			
+		default:
+			break;
 	}
 }
 function initDEX()
